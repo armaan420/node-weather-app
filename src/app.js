@@ -24,7 +24,7 @@ app.use(express.static(publicDirectory))
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather',
+        title: 'Weather API',
         name: 'Armaan Singh'
     })
 })

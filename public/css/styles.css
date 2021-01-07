@@ -7,6 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: #66cef7;
 }
 
 header{
@@ -20,9 +21,15 @@ h1{
 }
 
 header a{
-    color: #888888;
+    color: #493535;
     margin-right: 16px;
     text-decoration: none;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 3px;
+}
+
+header a:hover{
+    color: rgb(131, 23, 55);
 }
 
 .portrait{
@@ -34,7 +41,7 @@ header a{
 }
 
 footer {
-    color: #888888;
+    color: #681c1c;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -43,12 +50,19 @@ footer {
 input {
     border: 1px solid #cccccc;
     padding: 8px;
+    border-radius: 5px;
 }
 
 button {
+    border-radius: 5px;
     cursor: pointer;
     border: 1px solid #888888;
     color: whitesmoke;
-    background: grey;
+    background: rgb(214, 84, 84);
     padding: 8px;
+}
+
+button:hover{
+    color:  rgb(204, 31, 31);
+    background: rgb(245, 191, 191);
 }
