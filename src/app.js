@@ -36,12 +36,6 @@ app.get('/about', (req, res) => {
     })
 })
 
-app.get('/help', (req,res) => {
-    res.render('help', {
-        title: 'Help provided!',
-        name : 'Armaan'
-    })
-})
 
 app.get('/weather', (req, res) => {
     if(!req.query.address){

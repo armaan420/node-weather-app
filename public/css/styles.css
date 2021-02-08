@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: #66cef7;
+    background: #022330;
 }
 
 header{
@@ -18,10 +18,11 @@ header{
 h1{
     font-size: 64px;
     margin-bottom: 16px;
+    color: whitesmoke;
 }
 
 header a{
-    color: #493535;
+    color: #e7cbcb;
     margin-right: 16px;
     text-decoration: none;
     border-bottom: 1px solid whitesmoke;
@@ -29,7 +30,7 @@ header a{
 }
 
 header a:hover{
-    color: rgb(131, 23, 55);
+    color: rgb(158, 216, 104);
 }
 
 .portrait{
@@ -40,8 +41,12 @@ header a:hover{
     flex-grow: 1;
 }
 
+.main-content>p{
+    color: rgb(158, 216, 104);
+}
+
 footer {
-    color: #681c1c;
+    color: #e7d0d0;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -51,6 +56,7 @@ input {
     border: 1px solid #cccccc;
     padding: 8px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 button {
@@ -60,9 +66,10 @@ button {
     color: whitesmoke;
     background: rgb(214, 84, 84);
     padding: 8px;
+    outline: none;
 }
 
 button:hover{
-    color:  rgb(204, 31, 31);
-    background: rgb(245, 191, 191);
+    color:  rgb(20, 0, 0);
+    background: rgb(115, 177, 34);
 }
